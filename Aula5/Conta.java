@@ -3,11 +3,11 @@ public class Conta {
 	//O private faz com que esses atributos só sejam acessados pela classe Conta
 	private String nomeCliente;
 	private double saldo;
-	public void setSaldo(double val)
+	public void setSaldo(double val) //set para mudar o valor do atributo
 	{
 		saldo = val;
 	}
-	public double getSaldo()
+	public double getSaldo() // get para pegar o valor do atributo
 	{
 		return saldo;
 	}
